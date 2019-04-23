@@ -1,0 +1,6 @@
+framework module Pods_Motivating_Reminders {
+  umbrella header "Pods-Motivating Reminders-umbrella.h"
+
+  export *
+  module * { export * }
+}
