@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2467EA78C7009C9194A7CA /* Pods_Motivating_RemindersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03143E4B8F4139B1E9682475 /* Pods_Motivating_RemindersTests.framework */; };
 		7E180B8121CAFBF900F45EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B8021CAFBF900F45EFF /* AppDelegate.swift */; };
-		7E180B8321CAFBF900F45EFF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B8221CAFBF900F45EFF /* FirstViewController.swift */; };
-		7E180B8521CAFBF900F45EFF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B8421CAFBF900F45EFF /* SecondViewController.swift */; };
+		7E180B8321CAFBF900F45EFF /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B8221CAFBF900F45EFF /* Events.swift */; };
+		7E180B8521CAFBF900F45EFF /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B8421CAFBF900F45EFF /* Overview.swift */; };
 		7E180B8821CAFBF900F45EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E180B8621CAFBF900F45EFF /* Main.storyboard */; };
 		7E180B8A21CAFBFB00F45EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E180B8921CAFBFB00F45EFF /* Assets.xcassets */; };
 		7E180B8D21CAFBFB00F45EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E180B8B21CAFBFB00F45EFF /* LaunchScreen.storyboard */; };
 		7E180B9821CAFBFB00F45EFF /* Motivating_RemindersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B9721CAFBFB00F45EFF /* Motivating_RemindersTests.swift */; };
 		7E180BA321CAFBFB00F45EFF /* Motivating_RemindersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180BA221CAFBFB00F45EFF /* Motivating_RemindersUITests.swift */; };
+		7E2508DF2202132B00D29BED /* ReminderObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2508DE2202132B00D29BED /* ReminderObject.swift */; };
+		7E4BCED722233D73006C06C2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BCED622233D73006C06C2 /* Settings.swift */; };
+		7E9C04DC2207F5E70005E3E1 /* CreateEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9C04DB2207F5E70005E3E1 /* CreateEvent.swift */; };
+		7EA8FDD622234E31007C5DDC /* ColorSchemeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8FDD522234E31007C5DDC /* ColorSchemeObject.swift */; };
+		7EF766A1220E270800209147 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7668B220E270800209147 /* IQTextView.swift */; };
+		7EF766A2220E270800209147 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7668D220E270800209147 /* IQPreviousNextView.swift */; };
+		7EF766A3220E270800209147 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7668E220E270800209147 /* IQTitleBarButtonItem.swift */; };
+		7EF766A4220E270800209147 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7668F220E270800209147 /* IQBarButtonItem.swift */; };
+		7EF766A5220E270800209147 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76690220E270800209147 /* IQToolbar.swift */; };
+		7EF766A6220E270800209147 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76691220E270800209147 /* IQUIView+IQKeyboardToolbar.swift */; };
+		7EF766A7220E270800209147 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76692220E270800209147 /* IQInvocation.swift */; };
+		7EF766A8220E270800209147 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76694220E270800209147 /* IQKeyboardManagerConstantsInternal.swift */; };
+		7EF766A9220E270800209147 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76695220E270800209147 /* IQKeyboardManagerConstants.swift */; };
+		7EF766AA220E270800209147 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7EF76697220E270800209147 /* IQKeyboardManager.bundle */; };
+		7EF766AB220E270800209147 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76698220E270800209147 /* IQKeyboardReturnKeyHandler.swift */; };
+		7EF766AC220E270800209147 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76699220E270800209147 /* IQKeyboardManager.swift */; };
+		7EF766AD220E270800209147 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7669C220E270800209147 /* IQUIScrollView+Additions.swift */; };
+		7EF766AE220E270800209147 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7669D220E270800209147 /* IQUIViewController+Additions.swift */; };
+		7EF766AF220E270800209147 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7669E220E270800209147 /* IQUITextFieldView+Additions.swift */; };
+		7EF766B0220E270800209147 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7669F220E270800209147 /* IQUIView+Hierarchy.swift */; };
+		7EF766B1220E270800209147 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF766A0220E270800209147 /* IQNSArray+Sort.swift */; };
+		E298957452A2748F4C7607E6 /* Pods_Motivating_Reminders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13191C69A17DDA2500CCBE41 /* Pods_Motivating_Reminders.framework */; };
+		F0A6E11B50F00811D9407DC0 /* Pods_Motivating_RemindersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7BA8DAFC043647BFEC5734 /* Pods_Motivating_RemindersUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +59,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03143E4B8F4139B1E9682475 /* Pods_Motivating_RemindersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivating_RemindersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08879877CD8A8C4AE1070516 /* Pods-Motivating RemindersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating RemindersTests.debug.xcconfig"; path = "Target Support Files/Pods-Motivating RemindersTests/Pods-Motivating RemindersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C7BA8DAFC043647BFEC5734 /* Pods_Motivating_RemindersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivating_RemindersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111CC13C129C59CE5B00E18B /* Pods-Motivating RemindersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating RemindersTests.release.xcconfig"; path = "Target Support Files/Pods-Motivating RemindersTests/Pods-Motivating RemindersTests.release.xcconfig"; sourceTree = "<group>"; };
+		13191C69A17DDA2500CCBE41 /* Pods_Motivating_Reminders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivating_Reminders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F23D8CC396312A65E1BFDC4 /* Pods-Motivating Reminders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating Reminders.debug.xcconfig"; path = "Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders.debug.xcconfig"; sourceTree = "<group>"; };
+		4796CABF334126E0B863E31D /* Pods-Motivating Reminders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating Reminders.release.xcconfig"; path = "Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders.release.xcconfig"; sourceTree = "<group>"; };
 		7E180B7D21CAFBF900F45EFF /* Motivating Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motivating Reminders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E180B8021CAFBF900F45EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E180B8221CAFBF900F45EFF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7E180B8421CAFBF900F45EFF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7E180B8221CAFBF900F45EFF /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		7E180B8421CAFBF900F45EFF /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
 		7E180B8721CAFBF900F45EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E180B8921CAFBFB00F45EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E180B8C21CAFBFB00F45EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +80,30 @@
 		7E180B9E21CAFBFB00F45EFF /* Motivating RemindersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motivating RemindersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E180BA221CAFBFB00F45EFF /* Motivating_RemindersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motivating_RemindersUITests.swift; sourceTree = "<group>"; };
 		7E180BA421CAFBFB00F45EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2508DE2202132B00D29BED /* ReminderObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderObject.swift; sourceTree = "<group>"; };
+		7E4BCED622233D73006C06C2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		7E9C04DB2207F5E70005E3E1 /* CreateEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEvent.swift; sourceTree = "<group>"; };
+		7EA8FDD522234E31007C5DDC /* ColorSchemeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeObject.swift; sourceTree = "<group>"; };
+		7EF7668B220E270800209147 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		7EF7668D220E270800209147 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		7EF7668E220E270800209147 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		7EF7668F220E270800209147 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		7EF76690220E270800209147 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		7EF76691220E270800209147 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		7EF76692220E270800209147 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		7EF76694220E270800209147 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		7EF76695220E270800209147 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		7EF76697220E270800209147 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		7EF76698220E270800209147 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		7EF76699220E270800209147 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		7EF7669A220E270800209147 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		7EF7669C220E270800209147 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		7EF7669D220E270800209147 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		7EF7669E220E270800209147 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		7EF7669F220E270800209147 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		7EF766A0220E270800209147 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		CFE0F8A9368FBA960F5D411D /* Pods-Motivating RemindersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating RemindersUITests.debug.xcconfig"; path = "Target Support Files/Pods-Motivating RemindersUITests/Pods-Motivating RemindersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2B43CF7A24A7B519071903D /* Pods-Motivating RemindersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating RemindersUITests.release.xcconfig"; path = "Target Support Files/Pods-Motivating RemindersUITests/Pods-Motivating RemindersUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E298957452A2748F4C7607E6 /* Pods_Motivating_Reminders.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2467EA78C7009C9194A7CA /* Pods_Motivating_RemindersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A6E11B50F00811D9407DC0 /* Pods_Motivating_RemindersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +141,8 @@
 				7E180B9621CAFBFB00F45EFF /* Motivating RemindersTests */,
 				7E180BA121CAFBFB00F45EFF /* Motivating RemindersUITests */,
 				7E180B7E21CAFBF900F45EFF /* Products */,
+				EA5DEA4A467837B6BD86B4FC /* Pods */,
+				B66256A73A9CD996F03466D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +160,17 @@
 			isa = PBXGroup;
 			children = (
 				7E180B8021CAFBF900F45EFF /* AppDelegate.swift */,
-				7E180B8221CAFBF900F45EFF /* FirstViewController.swift */,
-				7E180B8421CAFBF900F45EFF /* SecondViewController.swift */,
+				7E180B8221CAFBF900F45EFF /* Events.swift */,
+				7E180B8421CAFBF900F45EFF /* Overview.swift */,
+				7E4BCED622233D73006C06C2 /* Settings.swift */,
+				7E9C04DB2207F5E70005E3E1 /* CreateEvent.swift */,
 				7E180B8621CAFBF900F45EFF /* Main.storyboard */,
+				7E2508DE2202132B00D29BED /* ReminderObject.swift */,
+				7EA8FDD522234E31007C5DDC /* ColorSchemeObject.swift */,
 				7E180B8921CAFBFB00F45EFF /* Assets.xcassets */,
 				7E180B8B21CAFBFB00F45EFF /* LaunchScreen.storyboard */,
 				7E180B8E21CAFBFB00F45EFF /* Info.plist */,
+				7EF76689220E270800209147 /* IQKeyboardManagerSwift */,
 			);
 			path = "Motivating Reminders";
 			sourceTree = "<group>";
@@ -128,6 +193,94 @@
 			path = "Motivating RemindersUITests";
 			sourceTree = "<group>";
 		};
+		7EF76689220E270800209147 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7EF7668A220E270800209147 /* IQTextView */,
+				7EF7668C220E270800209147 /* IQToolbar */,
+				7EF76693220E270800209147 /* Constants */,
+				7EF76696220E270800209147 /* Resources */,
+				7EF76698220E270800209147 /* IQKeyboardReturnKeyHandler.swift */,
+				7EF76699220E270800209147 /* IQKeyboardManager.swift */,
+				7EF7669A220E270800209147 /* IQKeyboardManagerSwift.h */,
+				7EF7669B220E270800209147 /* Categories */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		7EF7668A220E270800209147 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				7EF7668B220E270800209147 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		7EF7668C220E270800209147 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				7EF7668D220E270800209147 /* IQPreviousNextView.swift */,
+				7EF7668E220E270800209147 /* IQTitleBarButtonItem.swift */,
+				7EF7668F220E270800209147 /* IQBarButtonItem.swift */,
+				7EF76690220E270800209147 /* IQToolbar.swift */,
+				7EF76691220E270800209147 /* IQUIView+IQKeyboardToolbar.swift */,
+				7EF76692220E270800209147 /* IQInvocation.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		7EF76693220E270800209147 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7EF76694220E270800209147 /* IQKeyboardManagerConstantsInternal.swift */,
+				7EF76695220E270800209147 /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7EF76696220E270800209147 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EF76697220E270800209147 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7EF7669B220E270800209147 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7EF7669C220E270800209147 /* IQUIScrollView+Additions.swift */,
+				7EF7669D220E270800209147 /* IQUIViewController+Additions.swift */,
+				7EF7669E220E270800209147 /* IQUITextFieldView+Additions.swift */,
+				7EF7669F220E270800209147 /* IQUIView+Hierarchy.swift */,
+				7EF766A0220E270800209147 /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B66256A73A9CD996F03466D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13191C69A17DDA2500CCBE41 /* Pods_Motivating_Reminders.framework */,
+				03143E4B8F4139B1E9682475 /* Pods_Motivating_RemindersTests.framework */,
+				0C7BA8DAFC043647BFEC5734 /* Pods_Motivating_RemindersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5DEA4A467837B6BD86B4FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F23D8CC396312A65E1BFDC4 /* Pods-Motivating Reminders.debug.xcconfig */,
+				4796CABF334126E0B863E31D /* Pods-Motivating Reminders.release.xcconfig */,
+				08879877CD8A8C4AE1070516 /* Pods-Motivating RemindersTests.debug.xcconfig */,
+				111CC13C129C59CE5B00E18B /* Pods-Motivating RemindersTests.release.xcconfig */,
+				CFE0F8A9368FBA960F5D411D /* Pods-Motivating RemindersUITests.debug.xcconfig */,
+				D2B43CF7A24A7B519071903D /* Pods-Motivating RemindersUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E180BA721CAFBFB00F45EFF /* Build configuration list for PBXNativeTarget "Motivating Reminders" */;
 			buildPhases = (
+				BA45B0D134A8DF3D96DAA63E /* [CP] Check Pods Manifest.lock */,
 				7E180B7921CAFBF900F45EFF /* Sources */,
 				7E180B7A21CAFBF900F45EFF /* Frameworks */,
 				7E180B7B21CAFBF900F45EFF /* Resources */,
+				FA00201C0DDD7D38DD91F0E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E180BAA21CAFBFB00F45EFF /* Build configuration list for PBXNativeTarget "Motivating RemindersTests" */;
 			buildPhases = (
+				7E16B9B1C2126169589F4599 /* [CP] Check Pods Manifest.lock */,
 				7E180B8F21CAFBFB00F45EFF /* Sources */,
 				7E180B9021CAFBFB00F45EFF /* Frameworks */,
 				7E180B9121CAFBFB00F45EFF /* Resources */,
@@ -170,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E180BAD21CAFBFB00F45EFF /* Build configuration list for PBXNativeTarget "Motivating RemindersUITests" */;
 			buildPhases = (
+				B4482C19D7BE0CABFDBF5ABF /* [CP] Check Pods Manifest.lock */,
 				7E180B9A21CAFBFB00F45EFF /* Sources */,
 				7E180B9B21CAFBFB00F45EFF /* Frameworks */,
 				7E180B9C21CAFBFB00F45EFF /* Resources */,
@@ -234,6 +391,7 @@
 			files = (
 				7E180B8D21CAFBFB00F45EFF /* LaunchScreen.storyboard in Resources */,
 				7E180B8A21CAFBFB00F45EFF /* Assets.xcassets in Resources */,
+				7EF766AA220E270800209147 /* IQKeyboardManager.bundle in Resources */,
 				7E180B8821CAFBF900F45EFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +412,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E16B9B1C2126169589F4599 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Motivating RemindersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4482C19D7BE0CABFDBF5ABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Motivating RemindersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA45B0D134A8DF3D96DAA63E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Motivating Reminders-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA00201C0DDD7D38DD91F0E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E180B7921CAFBF900F45EFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E180B8521CAFBF900F45EFF /* SecondViewController.swift in Sources */,
+				7E2508DF2202132B00D29BED /* ReminderObject.swift in Sources */,
+				7EF766A3220E270800209147 /* IQTitleBarButtonItem.swift in Sources */,
+				7E180B8521CAFBF900F45EFF /* Overview.swift in Sources */,
+				7EF766A5220E270800209147 /* IQToolbar.swift in Sources */,
+				7EF766A4220E270800209147 /* IQBarButtonItem.swift in Sources */,
+				7EA8FDD622234E31007C5DDC /* ColorSchemeObject.swift in Sources */,
+				7EF766A2220E270800209147 /* IQPreviousNextView.swift in Sources */,
+				7E9C04DC2207F5E70005E3E1 /* CreateEvent.swift in Sources */,
 				7E180B8121CAFBF900F45EFF /* AppDelegate.swift in Sources */,
-				7E180B8321CAFBF900F45EFF /* FirstViewController.swift in Sources */,
+				7EF766B0220E270800209147 /* IQUIView+Hierarchy.swift in Sources */,
+				7EF766AF220E270800209147 /* IQUITextFieldView+Additions.swift in Sources */,
+				7EF766AD220E270800209147 /* IQUIScrollView+Additions.swift in Sources */,
+				7EF766AC220E270800209147 /* IQKeyboardManager.swift in Sources */,
+				7EF766A9220E270800209147 /* IQKeyboardManagerConstants.swift in Sources */,
+				7EF766A6220E270800209147 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				7EF766B1220E270800209147 /* IQNSArray+Sort.swift in Sources */,
+				7EF766AE220E270800209147 /* IQUIViewController+Additions.swift in Sources */,
+				7EF766A7220E270800209147 /* IQInvocation.swift in Sources */,
+				7EF766AB220E270800209147 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				7E180B8321CAFBF900F45EFF /* Events.swift in Sources */,
+				7EF766A8220E270800209147 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				7E4BCED722233D73006C06C2 /* Settings.swift in Sources */,
+				7EF766A1220E270800209147 /* IQTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +703,7 @@
 		};
 		7E180BA821CAFBFB00F45EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F23D8CC396312A65E1BFDC4 /* Pods-Motivating Reminders.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +722,7 @@
 		};
 		7E180BA921CAFBFB00F45EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4796CABF334126E0B863E31D /* Pods-Motivating Reminders.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +741,7 @@
 		};
 		7E180BAB21CAFBFB00F45EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08879877CD8A8C4AE1070516 /* Pods-Motivating RemindersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +763,7 @@
 		};
 		7E180BAC21CAFBFB00F45EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111CC13C129C59CE5B00E18B /* Pods-Motivating RemindersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +785,7 @@
 		};
 		7E180BAE21CAFBFB00F45EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE0F8A9368FBA960F5D411D /* Pods-Motivating RemindersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +806,7 @@
 		};
 		7E180BAF21CAFBFB00F45EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B43CF7A24A7B519071903D /* Pods-Motivating RemindersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
