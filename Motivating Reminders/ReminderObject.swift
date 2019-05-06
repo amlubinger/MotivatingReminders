@@ -91,21 +91,28 @@ class ReminderObject: NSObject, NSCoding {
         var message = ""
         switch self.category {
         case "Exercise":
+            message = "Exercise will keep your body healthy and you'll feel confident!"
+            
             if titleIgnoreCase.contains("workout") {
-                let messages = ["Have a nice workout!", "Work hard!", "Give it your all!"]
+                let messages = ["Have a nice workout!", "Work hard!", "Give it your all!", "Get those gains!"]
                 message = messages.randomElement()!
             } else if titleIgnoreCase.contains("lift") {
-                let messages = ["Go pump that iron!", "#Gainz"]
+                let messages = ["Go pump that iron!", "#Gainz", "Get those gains!"]
                 message = messages.randomElement()!
             } else if titleIgnoreCase.contains("basketball") {
                 let messages = ["Play hard!", "Have fun hooping!", "Go ball out!"]
                 message = messages.randomElement()!
             } else if titleIgnoreCase.contains("run") {
-                let messages = ["Have a nice run!", "Run hard!", "Run fast!", "Run Forest, run!"]
+                let messages = ["Have a nice run!", "Run hard!", "Run fast!", "Run Forest, run!", "Faster than a cheetah!"]
+                message = messages.randomElement()!
+            } else if titleIgnoreCase.contains("exercise") {
+                let messages = ["Work hard!"]
                 message = messages.randomElement()!
             }
             self.remindMessage = message
         case "Education":
+            message = "Do your best!"
+            
             if titleIgnoreCase.contains("exam") {
                 let messages = ["You can do great on your Exam!", "You're the smartest person I know!", "Go ace that Exam!", "You can do it!", "Show them what you know!"]
                 message = messages.randomElement()!
@@ -121,11 +128,18 @@ class ReminderObject: NSObject, NSCoding {
             } else if titleIgnoreCase.contains("read") {
                 let messages = ["Reading grows expands your knowledge!", "Always read when you can!", "Go learn something new!"]
                 message = messages.randomElement()!
+            } else if titleIgnoreCase.contains("presentation") {
+                let messages = ["Good luck!", "Speak confidently!", "You know your stuff!", "You'll do great!", "Good posture!"]
+                message = messages.randomElement()!
             }
             self.remindMessage = message
         case "Relaxation":
+            message = "Have nice relaxation time!"
+            
             self.remindMessage = message
         case "Social":
+            message = "Enjoy yourself!"
+            
             if titleIgnoreCase.contains("party") {
                 let messages = ["Have fun at the party!", "Party safely!"]
                 message = messages.randomElement()!
@@ -141,9 +155,20 @@ class ReminderObject: NSObject, NSCoding {
             }
             self.remindMessage = message
         case "Work":
+            message = "I wish you success!"
+            
+            if titleIgnoreCase.contains("presentation") {
+                let messages = ["Good luck!", "Speak confidently!", "You know your stuff!", "You'll do great!", "Good posture!"]
+                message = messages.randomElement()!
+            } else if titleIgnoreCase.contains("meeting") {
+                let messages = ["It'll be over soon.", "It won't be that bad.", "Be professional!", "Good posture!"]
+                message = messages.randomElement()!
+            }
             self.remindMessage = message
         case "Zzz":
             //Other - Stored behind the scenes as Zzz so it is sorted in the correct order
+            message = "Be your best you!"
+            
             self.remindMessage = message
         default:
             self.remindMessage = message

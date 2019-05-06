@@ -91,6 +91,18 @@ open class ChartColorTemplates: NSObject
         ]
     }
     
+    @objc open class func light () -> [NSUIColor]
+    {
+        return [
+            NSUIColor(red: 255/255.0, green: 59/255.0, blue: 48/255.0, alpha: 1.0),
+            NSUIColor(red: 255/255.0, green: 149/255.0, blue: 0/255.0, alpha: 1.0),
+            NSUIColor(red: 255/255.0, green: 204/255.0, blue: 0/255.0, alpha: 1.0),
+            NSUIColor(red: 76/255.0, green: 217/255.0, blue: 100/255.0, alpha: 1.0),
+            NSUIColor(red: 90/255.0, green: 200/255.0, blue: 250/255.0, alpha: 1.0),
+            NSUIColor(red: 88/255.0, green: 86/255.0, blue: 214/255.0, alpha: 1.0)
+        ]
+    }
+    
     @objc open class func colorFromString(_ colorString: String) -> NSUIColor
     {
         let leftParenCharset: CharacterSet = CharacterSet(charactersIn: "( ")
