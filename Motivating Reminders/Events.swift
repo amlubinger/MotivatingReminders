@@ -22,6 +22,8 @@ struct Globals {
     static var colorScheme = 0
     
     static var defaultSorting = 0
+    
+    static var tableFontSize: Float = 17.0
 }
 
 class Events: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -270,6 +272,9 @@ class Events: UIViewController, UITableViewDataSource, UITableViewDelegate {
     //Creating each cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reminderCell2", for: indexPath)
+        
+        cell.textLabel!.font = UIFont.systemFont(ofSize: CGFloat(Globals.tableFontSize))
+        cell.detailTextLabel!.font = UIFont.systemFont(ofSize: CGFloat(Globals.tableFontSize - 4.0))
         
         var reminder: ReminderObject
         
