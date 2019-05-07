@@ -48,6 +48,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Using defaults since these are settings
         Globals.colorScheme = defaults.integer(forKey: "colorScheme") //returns 0 if there is no data yet, which is what we want anyway
         Globals.defaultSorting = defaults.integer(forKey: "defaultSorting")
+        Globals.tableFontSize = defaults.float(forKey: "tableFontSize")
+        if Globals.tableFontSize == 0 {
+            Globals.tableFontSize = 17.0
+        }
         
         //Makes the Globals struct less chaotic
         Globals.colors = ColorSchemeObject.loadColorSchemes()
@@ -77,6 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Using defaults since these are settings
         defaults.set(Globals.colorScheme, forKey: "colorScheme")
         defaults.set(Globals.defaultSorting, forKey: "defaultSorting")
+        defaults.set(Globals.tableFontSize, forKey: "tableFontSize")
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {

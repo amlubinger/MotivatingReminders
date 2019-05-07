@@ -24,7 +24,10 @@ class Settings: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet weak var breakerOne: UIView!
     @IBOutlet weak var breakerTwo: UIView!
     @IBOutlet weak var breakerThree: UIView!
+    @IBOutlet weak var breakerFour: UIView!
     @IBOutlet weak var website: UITextView!
+    @IBOutlet weak var fontSizeLabel: UILabel!
+    @IBOutlet weak var fontSizeSlider: UISlider!
     
     let sortingOptions = ["Chronological", "Category", "Completed"]
     
@@ -35,6 +38,7 @@ class Settings: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         setColorScheme()
         colorSchemePicker.selectRow(Globals.colorScheme, inComponent: 0, animated: false)
         defaultSortingPicker.selectRow(Globals.defaultSorting, inComponent: 0, animated: false)
+        fontSizeSlider.value = Globals.tableFontSize
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -49,7 +53,11 @@ class Settings: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         breakerOne.backgroundColor = Globals.colors[Globals.colorScheme].contrast
         breakerTwo.backgroundColor = Globals.colors[Globals.colorScheme].contrast
         breakerThree.backgroundColor = Globals.colors[Globals.colorScheme].contrast
+        breakerFour.backgroundColor = Globals.colors[Globals.colorScheme].contrast
         website.textColor = Globals.colors[Globals.colorScheme].text1
+        fontSizeLabel.textColor = Globals.colors[Globals.colorScheme].label1
+        fontSizeSlider.tintColor = Globals.colors[Globals.colorScheme].label1
+        fontSizeSlider.thumbTintColor = Globals.colors[Globals.colorScheme].contrast
         let holdSpot = defaultSortingPicker.selectedRow(inComponent: 0)
         defaultSortingPicker.reloadAllComponents()
         defaultSortingPicker.selectRow(holdSpot, inComponent: 0, animated: false)
@@ -98,5 +106,9 @@ class Settings: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         } else if pickerView == defaultSortingPicker {
             Globals.defaultSorting = row
         }
+    }
+    
+    @IBAction func fontSizeSlider(_ sender: UISlider) {
+        Globals.tableFontSize = fontSizeSlider.value
     }
 }
