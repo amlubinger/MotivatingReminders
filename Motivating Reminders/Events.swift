@@ -36,6 +36,7 @@ class Events: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var addAnEventButton: UIButton!
+    @IBOutlet weak var tableAddAnEventButton: UIButton!
     @IBOutlet weak var sortByLabel: UILabel!
     @IBOutlet weak var sortByPicker: UISegmentedControl!
     
@@ -113,6 +114,8 @@ class Events: UIViewController, UITableViewDataSource, UITableViewDelegate {
         view.backgroundColor = Globals.colors[Globals.colorScheme].background
         addAnEventButton.setTitleColor(Globals.colors[Globals.colorScheme].buttonText, for: UIControl.State.normal)
         addAnEventButton.backgroundColor = Globals.colors[Globals.colorScheme].button
+        tableAddAnEventButton.setTitleColor(Globals.colors[Globals.colorScheme].buttonText, for: UIControl.State.normal)
+        tableAddAnEventButton.backgroundColor = Globals.colors[Globals.colorScheme].button
         sortByLabel.textColor = Globals.colors[Globals.colorScheme].label2
         sortByPicker.backgroundColor = Globals.colors[Globals.colorScheme].segmentBack
         sortByPicker.tintColor = Globals.colors[Globals.colorScheme].segmentTint
