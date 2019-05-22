@@ -334,5 +334,65 @@ class Events: UIViewController, UITableViewDataSource, UITableViewDelegate {
         self.present((self.storyboard?.instantiateViewController(withIdentifier: "CreateEvent"))!, animated: true, completion: nil)
     }
     
+    //Slide actions for reminders in the table. Actions available: edit, delete
+    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        let delete = UITableViewRowAction(style: .destructive, title: "Delete") { (action, indexPath) in
+            //Select reminder
+            switch self.state {
+            case 0:
+                Globals.reminderTappedOn = self.remindersToDisplay[0][indexPath.row]
+            case 1:
+                Globals.reminderTappedOn = self.remindersToDisplay[indexPath.section + 1][indexPath.row]
+            case 2:
+                if indexPath.section == 0 {
+                    Globals.reminderTappedOn = Globals.reminders[indexPath.row]
+                } else {
+                    Globals.reminderTappedOn = Globals.reminders[indexPath.row + self.completedCount]
+                }
+            default:
+                Globals.reminderTappedOn = ReminderObject(title: "___EMPTY-REMINDER___", date: Calendar.current.date(from: DateComponents(calendar: Calendar.current, timeZone: TimeZone.current, era: 1, year: 1, month: 1, day: 1, hour: 1, minute: 1, second: 1, nanosecond: 1))!, repetition: "Never", category: "Other", note: "___EMPTY-REMINDER___")
+            }
+            
+            //Delete?
+            let alert = UIAlertController(title: "Delete Reminder?", message: "Are you sure you want to permanently remove this reminder?", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (_) in
+                
+            }))
+            alert.addAction(UIAlertAction(title: "Delete", style: .destructive, handler: { (_) in
+                Globals.reminders.removeAll(where: { $0 == Globals.reminderTappedOn })
+                //Remove notification here
+                Globals.reminderTappedOn.notifRemove()
+                
+                //Remove from table
+                tableView.deleteRows(at: [indexPath], with: .fade)
+            }))
+            
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+        let edit = UITableViewRowAction(style: .default, title: "Edit") { (action, indexPath) in
+            switch self.state {
+            case 0:
+                Globals.reminderTappedOn = self.remindersToDisplay[0][indexPath.row]
+            case 1:
+                Globals.reminderTappedOn = self.remindersToDisplay[indexPath.section + 1][indexPath.row]
+            case 2:
+                if indexPath.section == 0 {
+                    Globals.reminderTappedOn = Globals.reminders[indexPath.row]
+                } else {
+                    Globals.reminderTappedOn = Globals.reminders[indexPath.row + self.completedCount]
+                }
+            default:
+                Globals.reminderTappedOn = ReminderObject(title: "___EMPTY-REMINDER___", date: Calendar.current.date(from: DateComponents(calendar: Calendar.current, timeZone: TimeZone.current, era: 1, year: 1, month: 1, day: 1, hour: 1, minute: 1, second: 1, nanosecond: 1))!, repetition: "Never", category: "Other", note: "___EMPTY-REMINDER___")
+            }
+            
+            self.present((self.storyboard?.instantiateViewController(withIdentifier: "CreateEvent"))!, animated: true, completion: nil)
+        }
+        edit.backgroundColor = UIColor.lightGray
+        
+        return [edit, delete]
+    }
+    
 }
 
