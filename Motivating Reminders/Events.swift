@@ -35,7 +35,7 @@ class Events: UIViewController, UITableViewDataSource, UITableViewDelegate {
     // MARK: IBOutlets
     
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var addAnEventButton: UIButton!
+    @IBOutlet weak var motivatingRemindersLabel: UILabel!
     @IBOutlet weak var tableAddAnEventButton: UIButton!
     @IBOutlet weak var sortByLabel: UILabel!
     @IBOutlet weak var sortByPicker: UISegmentedControl!
@@ -112,8 +112,7 @@ class Events: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     func setColorScheme() {
         view.backgroundColor = Globals.colors[Globals.colorScheme].background
-        addAnEventButton.setTitleColor(Globals.colors[Globals.colorScheme].buttonText, for: UIControl.State.normal)
-        addAnEventButton.backgroundColor = Globals.colors[Globals.colorScheme].button
+        motivatingRemindersLabel.textColor = Globals.colors[Globals.colorScheme].label1
         tableAddAnEventButton.setTitleColor(Globals.colors[Globals.colorScheme].buttonText, for: UIControl.State.normal)
         tableAddAnEventButton.backgroundColor = Globals.colors[Globals.colorScheme].button
         sortByLabel.textColor = Globals.colors[Globals.colorScheme].label2
@@ -391,7 +390,7 @@ class Events: UIViewController, UITableViewDataSource, UITableViewDelegate {
         }
         edit.backgroundColor = UIColor.lightGray
         
-        return [edit, delete]
+        return [edit, delete] 
     }
     
 }
