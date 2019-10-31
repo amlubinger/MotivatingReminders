@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F2467EA78C7009C9194A7CA /* Pods_Motivating_RemindersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03143E4B8F4139B1E9682475 /* Pods_Motivating_RemindersTests.framework */; };
+		591A02974809C30A98E4B238 /* Pods_Motivating_Reminders_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23DCA066D314CFA9E7183F8 /* Pods_Motivating_Reminders_Widget.framework */; };
 		7E180B8121CAFBF900F45EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B8021CAFBF900F45EFF /* AppDelegate.swift */; };
 		7E180B8321CAFBF900F45EFF /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B8221CAFBF900F45EFF /* Events.swift */; };
 		7E180B8521CAFBF900F45EFF /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180B8421CAFBF900F45EFF /* Overview.swift */; };
@@ -18,8 +19,8 @@
 		7E180BA321CAFBFB00F45EFF /* Motivating_RemindersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E180BA221CAFBFB00F45EFF /* Motivating_RemindersUITests.swift */; };
 		7E2508DF2202132B00D29BED /* ReminderObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2508DE2202132B00D29BED /* ReminderObject.swift */; };
 		7E4B549F236A0193007F873B /* ReminderObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2508DE2202132B00D29BED /* ReminderObject.swift */; };
-		7E4B54AC236A2B23007F873B /* ColorSchemeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B54AB236A2B23007F873B /* ColorSchemeObject.swift */; };
 		7E4B54AF236A5B34007F873B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E180B8921CAFBFB00F45EFF /* Assets.xcassets */; };
+		7E4B54B2236A6D0B007F873B /* Pods_Motivating_Reminders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13191C69A17DDA2500CCBE41 /* Pods_Motivating_Reminders.framework */; };
 		7E4BCED722233D73006C06C2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BCED622233D73006C06C2 /* Settings.swift */; };
 		7E5DCFF32363FC2C00AEDA5D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5DCFF22363FC2C00AEDA5D /* NotificationCenter.framework */; };
 		7E5DCFF62363FC2C00AEDA5D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DCFF52363FC2C00AEDA5D /* TodayViewController.swift */; };
@@ -27,6 +28,7 @@
 		7E5DCFFD2363FC2C00AEDA5D /* Motivating Reminders Upcoming.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E5DCFF12363FC2C00AEDA5D /* Motivating Reminders Upcoming.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7E9C04DC2207F5E70005E3E1 /* CreateEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9C04DB2207F5E70005E3E1 /* CreateEvent.swift */; };
 		7EA8FDD622234E31007C5DDC /* ColorSchemeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8FDD522234E31007C5DDC /* ColorSchemeObject.swift */; };
+		7EC24111236A716E00384F9A /* ColorSchemeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8FDD522234E31007C5DDC /* ColorSchemeObject.swift */; };
 		7EF766A1220E270800209147 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7668B220E270800209147 /* IQTextView.swift */; };
 		7EF766A2220E270800209147 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7668D220E270800209147 /* IQPreviousNextView.swift */; };
 		7EF766A3220E270800209147 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7668E220E270800209147 /* IQTitleBarButtonItem.swift */; };
@@ -44,7 +46,6 @@
 		7EF766AF220E270800209147 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7669E220E270800209147 /* IQUITextFieldView+Additions.swift */; };
 		7EF766B0220E270800209147 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7669F220E270800209147 /* IQUIView+Hierarchy.swift */; };
 		7EF766B1220E270800209147 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF766A0220E270800209147 /* IQNSArray+Sort.swift */; };
-		E298957452A2748F4C7607E6 /* Pods_Motivating_Reminders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13191C69A17DDA2500CCBE41 /* Pods_Motivating_Reminders.framework */; };
 		F0A6E11B50F00811D9407DC0 /* Pods_Motivating_RemindersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7BA8DAFC043647BFEC5734 /* Pods_Motivating_RemindersUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,7 +93,9 @@
 		0C7BA8DAFC043647BFEC5734 /* Pods_Motivating_RemindersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivating_RemindersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		111CC13C129C59CE5B00E18B /* Pods-Motivating RemindersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating RemindersTests.release.xcconfig"; path = "Target Support Files/Pods-Motivating RemindersTests/Pods-Motivating RemindersTests.release.xcconfig"; sourceTree = "<group>"; };
 		13191C69A17DDA2500CCBE41 /* Pods_Motivating_Reminders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivating_Reminders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		165BB119BA51916EDDBE1FEB /* Pods-Motivating Reminders Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating Reminders Widget.release.xcconfig"; path = "Target Support Files/Pods-Motivating Reminders Widget/Pods-Motivating Reminders Widget.release.xcconfig"; sourceTree = "<group>"; };
 		1F23D8CC396312A65E1BFDC4 /* Pods-Motivating Reminders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating Reminders.debug.xcconfig"; path = "Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders.debug.xcconfig"; sourceTree = "<group>"; };
+		26A411A489ACA604A00D6B90 /* Pods-Motivating Reminders Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating Reminders Widget.debug.xcconfig"; path = "Target Support Files/Pods-Motivating Reminders Widget/Pods-Motivating Reminders Widget.debug.xcconfig"; sourceTree = "<group>"; };
 		4796CABF334126E0B863E31D /* Pods-Motivating Reminders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating Reminders.release.xcconfig"; path = "Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders.release.xcconfig"; sourceTree = "<group>"; };
 		7E180B7D21CAFBF900F45EFF /* Motivating Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motivating Reminders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E180B8021CAFBF900F45EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,8 +113,6 @@
 		7E180BA421CAFBFB00F45EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E2508DE2202132B00D29BED /* ReminderObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderObject.swift; sourceTree = "<group>"; };
 		7E4B54A1236A10A8007F873B /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E4B54A5236A12A6007F873B /* Pods_Motivating_Reminders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Motivating_Reminders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E4B54AB236A2B23007F873B /* ColorSchemeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeObject.swift; sourceTree = "<group>"; };
 		7E4B54AD236A3030007F873B /* Motivating Reminders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Motivating Reminders.entitlements"; sourceTree = "<group>"; };
 		7E4B54AE236A308F007F873B /* Motivating Reminders Upcoming.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Motivating Reminders Upcoming.entitlements"; sourceTree = "<group>"; };
 		7E4BCED622233D73006C06C2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		7EF766A0220E270800209147 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 		CFE0F8A9368FBA960F5D411D /* Pods-Motivating RemindersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating RemindersUITests.debug.xcconfig"; path = "Target Support Files/Pods-Motivating RemindersUITests/Pods-Motivating RemindersUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2B43CF7A24A7B519071903D /* Pods-Motivating RemindersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivating RemindersUITests.release.xcconfig"; path = "Target Support Files/Pods-Motivating RemindersUITests/Pods-Motivating RemindersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F23DCA066D314CFA9E7183F8 /* Pods_Motivating_Reminders_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivating_Reminders_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E298957452A2748F4C7607E6 /* Pods_Motivating_Reminders.framework in Frameworks */,
+				7E4B54B2236A6D0B007F873B /* Pods_Motivating_Reminders.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E5DCFF32363FC2C00AEDA5D /* NotificationCenter.framework in Frameworks */,
+				591A02974809C30A98E4B238 /* Pods_Motivating_Reminders_Widget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +252,6 @@
 				7E5DCFF52363FC2C00AEDA5D /* TodayViewController.swift */,
 				7E5DCFF72363FC2C00AEDA5D /* MainInterface.storyboard */,
 				7E5DCFFA2363FC2C00AEDA5D /* Info.plist */,
-				7E4B54AB236A2B23007F873B /* ColorSchemeObject.swift */,
 			);
 			path = "Motivating Reminders Widget";
 			sourceTree = "<group>";
@@ -322,12 +324,12 @@
 		B66256A73A9CD996F03466D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7E4B54A5236A12A6007F873B /* Pods_Motivating_Reminders.framework */,
 				7E4B54A1236A10A8007F873B /* Charts.framework */,
 				13191C69A17DDA2500CCBE41 /* Pods_Motivating_Reminders.framework */,
 				03143E4B8F4139B1E9682475 /* Pods_Motivating_RemindersTests.framework */,
 				0C7BA8DAFC043647BFEC5734 /* Pods_Motivating_RemindersUITests.framework */,
 				7E5DCFF22363FC2C00AEDA5D /* NotificationCenter.framework */,
+				F23DCA066D314CFA9E7183F8 /* Pods_Motivating_Reminders_Widget.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -341,6 +343,8 @@
 				111CC13C129C59CE5B00E18B /* Pods-Motivating RemindersTests.release.xcconfig */,
 				CFE0F8A9368FBA960F5D411D /* Pods-Motivating RemindersUITests.debug.xcconfig */,
 				D2B43CF7A24A7B519071903D /* Pods-Motivating RemindersUITests.release.xcconfig */,
+				26A411A489ACA604A00D6B90 /* Pods-Motivating Reminders Widget.debug.xcconfig */,
+				165BB119BA51916EDDBE1FEB /* Pods-Motivating Reminders Widget.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -411,6 +415,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E5DD0012363FC2C00AEDA5D /* Build configuration list for PBXNativeTarget "Motivating Reminders Widget" */;
 			buildPhases = (
+				F317DAFD32A8D40BFEEFD192 /* [CP] Check Pods Manifest.lock */,
 				7E5DCFED2363FC2C00AEDA5D /* Sources */,
 				7E5DCFEE2363FC2C00AEDA5D /* Frameworks */,
 				7E5DCFEF2363FC2C00AEDA5D /* Resources */,
@@ -575,7 +580,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA00201C0DDD7D38DD91F0E8 /* [CP] Embed Pods Frameworks */ = {
+		F317DAFD32A8D40BFEEFD192 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -583,14 +588,31 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"$(DERIVED_FILE_DIR)/Pods-Motivating Reminders Widget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA00201C0DDD7D38DD91F0E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Motivating Reminders/Pods-Motivating Reminders-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -650,7 +672,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4B54AC236A2B23007F873B /* ColorSchemeObject.swift in Sources */,
+				7EC24111236A716E00384F9A /* ColorSchemeObject.swift in Sources */,
 				7E4B549F236A0193007F873B /* ReminderObject.swift in Sources */,
 				7E5DCFF62363FC2C00AEDA5D /* TodayViewController.swift in Sources */,
 			);
@@ -956,6 +978,7 @@
 		};
 		7E5DCFFF2363FC2C00AEDA5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A411A489ACA604A00D6B90 /* Pods-Motivating Reminders Widget.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Motivating Reminders Widget/Motivating Reminders Upcoming.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -978,6 +1001,7 @@
 		};
 		7E5DD0002363FC2C00AEDA5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165BB119BA51916EDDBE1FEB /* Pods-Motivating Reminders Widget.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Motivating Reminders Widget/Motivating Reminders Upcoming.entitlements";
 				CODE_SIGN_STYLE = Automatic;
