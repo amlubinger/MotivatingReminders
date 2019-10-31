@@ -127,7 +127,7 @@ class TodayViewController: UIViewController, NCWidgetProviding, UITableViewDataS
         dateFormatter.timeStyle = .short
         dateFormatter.dateFormat = "EEEE, " + dateFormatter.dateFormat
         
-        let dateString = dateFormatter.string(from: reminder.date)
+        let dateString = dateFormatter.string(from: reminder.nextAlert())
         
         cell.textLabel?.text = reminder.title
         cell.detailTextLabel?.text =  dateString + " repeated " + reminder.repetition
