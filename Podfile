@@ -8,6 +8,10 @@ target 'Motivating Reminders' do
   # Pods for Motivating Reminders
 
   pod 'Charts'
+  
+  target 'Motivating Reminders Widget' do
+    inherit! :search_paths
+  end
 
   target 'Motivating RemindersTests' do
     inherit! :search_paths
