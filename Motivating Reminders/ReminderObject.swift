@@ -268,7 +268,8 @@ class ReminderObject: NSObject, NSCoding {
 
 extension Collection where Iterator.Element == ReminderObject {
     private static func persistencePath() -> URL? {
-        let url = try? FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+        //let url = try? FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+        let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.com.AndrewLubinger.Motivating-Reminders")
         return url?.appendingPathComponent("reminderobjects.bin")
     }
     
@@ -287,7 +288,12 @@ extension Collection where Iterator.Element == ReminderObject {
             if let array = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? [ReminderObject] {
                 return array ?? [ReminderObject(title: "___EMPTY-REMINDER___", date: Calendar.current.date(from: DateComponents(calendar: Calendar.current, timeZone: TimeZone.current, era: 1, year: 1, month: 1, day: 1, hour: 1, minute: 1, second: 1, nanosecond: 1))!, repetition: "Never", category: "Other", note: "___EMPTY-REMINDER___")]
             } else {
-                throw NSError(domain: "com.AndrewLubinger.Motivating-Reminders", code: 11, userInfo: nil)
+                NSKeyedUnarchiver.setClass(ReminderObject.self, forClassName: "Motivating_Reminders.ReminderObject")
+                if let array = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? [ReminderObject] {
+                    return array ?? [ReminderObject(title: "___EMPTY-REMINDER___", date: Calendar.current.date(from: DateComponents(calendar: Calendar.current, timeZone: TimeZone.current, era: 1, year: 1, month: 1, day: 1, hour: 1, minute: 1, second: 1, nanosecond: 1))!, repetition: "Never", category: "Other", note: "___EMPTY-REMINDER___")]
+                } else {
+                    throw NSError(domain: "com.AndrewLubinger.Motivating-Reminders", code: 11, userInfo: nil)
+                }
             }
         } else {
             throw NSError(domain: "com.AndrewLubinger.Motivating-Reminders", code: 12, userInfo: nil)
