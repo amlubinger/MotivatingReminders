@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -850,7 +850,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Motivating Reminders/Motivating Reminders.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = LAFGQJ4RD8;
 				INFOPLIST_FILE = "Motivating Reminders/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -874,7 +874,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Motivating Reminders/Motivating Reminders.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = LAFGQJ4RD8;
 				INFOPLIST_FILE = "Motivating Reminders/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -982,6 +982,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Motivating Reminders Widget/Motivating Reminders Upcoming.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = LAFGQJ4RD8;
 				INFOPLIST_FILE = "Motivating Reminders Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -990,7 +991,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AndrewLubinger.Motivating-Reminders.Motivating-Reminders-Upcoming";
 				PRODUCT_NAME = "Motivating Reminders Upcoming";
 				SKIP_INSTALL = YES;
@@ -1005,6 +1006,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Motivating Reminders Widget/Motivating Reminders Upcoming.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = LAFGQJ4RD8;
 				INFOPLIST_FILE = "Motivating Reminders Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1013,7 +1015,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AndrewLubinger.Motivating-Reminders.Motivating-Reminders-Upcoming";
 				PRODUCT_NAME = "Motivating Reminders Upcoming";
 				SKIP_INSTALL = YES;
